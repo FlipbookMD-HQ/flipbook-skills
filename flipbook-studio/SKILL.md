@@ -22,11 +22,13 @@ When the user wants the files written or changed by hand, use explain-deck, conv
 Node.js 20 or newer.
 
 ```bash
-npm install -g https://github.com/uminocelo/flipbook-studio/releases/latest/download/flipbook-studio.tgz
+npm install -g https://github.com/FlipbookMD-HQ/flipbook-studio/releases/latest/download/flipbook-studio.tgz
 flipbook-studio [folder]
 ```
 
 Keep the terminal open. Ctrl+C stops Studio.
+
+From Studio 0.3.2, Chrome or Edge can install the window from the address bar while Studio is running. The installed app uses that same local server. Stopping Studio stops the app. A different `--port` is a different installed app.
 
 | Option | What it does |
 | --- | --- |

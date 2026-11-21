@@ -1,6 +1,6 @@
 # Flipbook skills
 
-Agent skills for [Flipbook MD](https://github.com/uminocelo/flipbook-md) and [Flipbook Studio](https://github.com/uminocelo/flipbook-studio). Each folder is one skill. Copy the folders into the skills directory your agent reads.
+Agent skills for [Flipbook MD](https://github.com/FlipbookMD-HQ/flipbook-md) and [Flipbook Studio](https://github.com/FlipbookMD-HQ/flipbook-studio). Each folder is one skill. Copy the folders into the skills directory your agent reads.
 
 | Skill | Use it when |
 | --- | --- |
@@ -13,7 +13,7 @@ Agent skills for [Flipbook MD](https://github.com/uminocelo/flipbook-md) and [Fl
 
 `explain-deck` is the contract for `presentation.yml`, slides, themes, kits, and export presets. The other skills point at it instead of repeating those rules.
 
-The contract matches the `flipbook` CLI 0.4 (`flipbook-md` on npm, `@flipbook-md/core` 0.13) and Studio 0.3 (`@flipbook-md/core` 0.14). The slide files are the same.
+The contract matches the `flipbook` CLI 0.4 (`flipbook-md` on npm, `@flipbook-md/core` 0.13) and Studio 0.3.2 (`@flipbook-md/core` 0.14). The slide files are the same.
 
 ## Install
 
