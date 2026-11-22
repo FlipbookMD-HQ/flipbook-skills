@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 240" width="920" height="240" fill="none">
+  <defs>
+    <linearGradient id="skw-bg" x1="0" y1="0" x2="920" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#141820"/>
+      <stop offset="100%" stop-color="#070a0f"/>
+    </linearGradient>
+    <linearGradient id="skw-rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c0c1ff"/>
+      <stop offset="50%" stop-color="#8083ff"/>
+      <stop offset="100%" stop-color="#4edea3"/>
+    </linearGradient>
+    <linearGradient id="skw-fill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#262a31"/>
+      <stop offset="100%" stop-color="#12161d"/>
+    </linearGradient>
+    <linearGradient id="skw-top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c0c1ff"/>
+      <stop offset="100%" stop-color="#8083ff"/>
+    </linearGradient>
+    <linearGradient id="skw-left" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8083ff"/>
+      <stop offset="100%" stop-color="#2f3aa3"/>
+    </linearGradient>
+    <linearGradient id="skw-right" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6ffbbe"/>
+      <stop offset="100%" stop-color="#00885d"/>
+    </linearGradient>
+    <filter id="skw-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#040609" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <!-- Full-Bleed Square Banner Base -->
+  <rect width="920" height="240" fill="url(#skw-bg)"/>
+
+  <!-- Left HQ Crest Mark (Frameless, scaled up) -->
+  <g transform="translate(22, 16) scale(1.18)">
+    <g filter="url(#skw-shadow)">
+      <polygon points="88,18 148,53 148,123 88,158 28,123 28,53" fill="url(#skw-fill)" stroke="url(#skw-rim)" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M88 34L120 52L112 57L88 43L64 57L56 52L88 34Z" fill="#494bd6" opacity="0.6"/>
+      <path d="M88 41L124 61L116 66L88 50L60 66L52 61L88 41Z" fill="#8083ff" opacity="0.8"/>
+      <polygon points="88,48 126,70 88,92 50,70" fill="url(#skw-top)"/>
+      <line x1="75" y1="55.5" x2="113" y2="77.5" stroke="#10141a" stroke-opacity="0.25" stroke-width="1.2"/>
+      <line x1="63" y1="62.5" x2="101" y2="84.5" stroke="#10141a" stroke-opacity="0.25" stroke-width="1.2"/>
+      <line x1="101" y1="55.5" x2="63" y2="77.5" stroke="#10141a" stroke-opacity="0.25" stroke-width="1.2"/>
+      <line x1="113" y1="62.5" x2="75" y2="84.5" stroke="#10141a" stroke-opacity="0.25" stroke-width="1.2"/>
+      <polygon points="50,70 88,92 88,134 50,112" fill="url(#skw-left)"/>
+      <path d="M59 85L79 96.5V102L59 90.5V85Z" fill="#dfe2eb"/>
+      <path d="M59 95.5L74 104V109.5L59 101V95.5Z" fill="#c0c1ff"/>
+      <path d="M59 106L66 110V116.5L59 112.5V106Z" fill="#8083ff"/>
+      <polygon points="88,92 126,70 126,112 88,134" fill="url(#skw-right)"/>
+      <path d="M97 98V117L102 114V104.5L107.5 108.5L113 98.5V108L118 105V86L111.5 89.5L107.5 98.5L103.5 94.5L97 98Z" fill="#002113"/>
+    </g>
+  </g>
+
+  <!-- Right Typography & Six Agent Skills -->
+  <g transform="translate(238, 0)">
+    <text x="0" y="108" fill="#dfe2eb" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="56" font-weight="800" letter-spacing="-0.03em">
+      FLIPBOOK <tspan fill="#4edea3">SKILLS</tspan>
+    </text>
+
+    <text x="2" y="150" fill="#c7c4d7" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="17.5" font-weight="500">
+      Agent skills for <tspan fill="#c0c1ff">Claude Code</tspan> · <tspan fill="#8083ff">Codex</tspan> · <tspan fill="#4edea3">Grok Build</tspan>
+    </text>
+
+    <g transform="translate(2, 174)">
+      <rect x="0" y="0" width="96" height="26" rx="5" fill="#1c2026" stroke="#8083ff" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="48" y="17" fill="#dfe2eb" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="600" text-anchor="middle">explain-deck</text>
+
+      <rect x="102" y="0" width="96" height="26" rx="5" fill="#1c2026" stroke="#8083ff" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="150" y="17" fill="#dfe2eb" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="600" text-anchor="middle">convert-deck</text>
+
+      <rect x="204" y="0" width="86" height="26" rx="5" fill="#1c2026" stroke="#8083ff" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="247" y="17" fill="#dfe2eb" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="600" text-anchor="middle">theme-deck</text>
+
+      <rect x="296" y="0" width="96" height="26" rx="5" fill="#1c2026" stroke="#4edea3" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="344" y="17" fill="#dfe2eb" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="600" text-anchor="middle">present-deck</text>
+
+      <rect x="398" y="0" width="90" height="26" rx="5" fill="#1c2026" stroke="#4edea3" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="443" y="17" fill="#dfe2eb" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="600" text-anchor="middle">export-deck</text>
+
+      <rect x="494" y="0" width="110" height="26" rx="5" fill="#1c2026" stroke="#4edea3" stroke-opacity="0.6" stroke-width="1.2"/>
+      <text x="549" y="17" fill="#4edea3" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="600" text-anchor="middle">flipbook-studio</text>
+    </g>
+  </g>
+</svg>

@@ -1,5 +1,7 @@
 # Flipbook skills
 
+![Flipbook Skills](logo.svg)
+
 Agent skills for [Flipbook MD](https://github.com/FlipbookMD-HQ/flipbook-md) and [Flipbook Studio](https://github.com/FlipbookMD-HQ/flipbook-studio). Each folder is one skill. Copy the folders into the skills directory your agent reads.
 
 | Skill | Use it when |
